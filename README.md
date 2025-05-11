@@ -52,3 +52,4 @@ Key directories within `client/src/`:
 
 ## Backend
 The backend is planned to use SpacetimeDB. Setup and implementation for the backend will occur in a later development stage.
+ 
