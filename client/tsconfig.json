@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "lib": ["dom", "es2017"], // Added "dom" for browser environment
+    "moduleResolution": "node", // Added for better module resolution
+    "resolveJsonModule": true, // To import JSON files if needed
+    "baseUrl": "./", // Base directory for module resolution
+    "paths": {
+      "@/*": ["src/*"] // Alias for src directory
+    }
+  },
+  "include": ["src/**/*.ts"], // Only compile .ts files in src
+  "exclude": ["node_modules", "dist"]
+}

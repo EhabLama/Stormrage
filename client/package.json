@@ -1,0 +1,26 @@
+{
+  "name": "phaser-game-client",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Phaser client for the 2D Topdown RPG Roguelite game",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cline",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "ts-loader": "^9.5.1",
+    "html-webpack-plugin": "^5.6.0",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}
